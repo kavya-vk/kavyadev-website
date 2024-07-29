@@ -1,0 +1,65 @@
+body {
+    background-color: var(--color-background-page);
+    font-family: var(--font-family-body);
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.sidebar {
+    background-color: var(--color-text-accent1);
+    flex-basis: 40%;
+    color: var(--color-background-page);
+}
+.sidebar > *, .contact-card p, .contact-card a {
+    color: var(--color-background-page);
+}
+.sidebar header, .sidebar header a {
+    color: var(--color-background-page);
+    text-align: right;
+    padding: var(--size-spacing-small);
+}
+header > a {
+    color: var(--color-background-page);
+}
+.sidebar > a {
+    color: var(--color-background-page);
+}
+.main-page {
+    flex-basis: 60%;
+    padding: var(--size-spacing-large);
+}
+body > * {
+    /* flex-basis: 40%; */
+}
+.contact-card {
+    text-align: center;
+}
+.contact-card > a {
+    color: var(--color-background-page);
+}
+header {
+    font-family: var(--font-family-display);
+}
+h1 {
+    font-family: var(--font-family-display);
+    size: var(--size-type-xxlarge);
+}
+h2 {
+    font-family: var(--font-family-display);
+}
+p{
+    color: var(--color-text-title);
+}
+a{
+    color: var(--color-text-accent1);
+}
+.image {
+    aspect-ratio: 1;
+    width: 200px;
+    height: auto;
+    background-size: cover;
+}
